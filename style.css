@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+}
+
+/* banner styles */
+
+header {
+    background: url('new-year-new-me/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    position: relative;
+    /* margin-bottom: 140px; */
+}
+
+.header-item {
+    right: 230px;
+    top: 230px;
+    display: block;
+    width: 30%;
+    position: absolute;
+    text-align: right;
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: 28px;
+}
+
+.banner-text {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+.banner-btn {
+    width: 160px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+}
+
+/* past styles */
+
+.past {
+    display: flex;
+    margin: 140px auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 110px;
+    width: 60%;
+}
+
+.person {
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    background-color: rgba(241, 91, 34, 0.20);
+    top: 196px;
+    left: 23px;
+    border-radius: 527.929px;
+    width: 527.929px;
+    height: 527.929px;
+    z-index: -1;
+}
+
+.past-title {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 24px;
+}
+
+.past-describe {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.past-list {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.past-li i {
+    color: #16D887;
+}
+
+/* plan styles */
+
+.plan-title {
+    text-align: center;
+    margin-top: 215px;
+    margin-bottom: 60px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-item-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 210px;
+}
+
+.plan {
+    margin-bottom: 140px;
+}
+
+.plan-img {
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.plan-name {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-task {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* poster styles */
+
+.poster {
+    width: 1140px;
+    height: 300px;
+    margin: 0px auto;
+    margin-bottom: 130px;
+}
+
+.poster-img {
+    border-radius: 8px;
+    border: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.poster-text {
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 65px;
+    margin-bottom: 25px;
+}
+
+.poster-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-bottom: 60px;
+}
+
+/* footer styles */
+
+footer {
+    width: 100%;
+    height: 577px;
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-foot-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.left-foot-describe {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.social {
+    width: 175px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input {
+    display: block;
+}
+
+.right-foot-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.input-btn {
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 15px 30px;
+    margin-top: 16px;
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: auto;
+    padding-left: 21px;
+    margin: 0;
+}
